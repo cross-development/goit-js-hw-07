@@ -1,0 +1,72 @@
+* {
+	margin-left: 10px;
+}
+
+body {
+	padding-bottom: 100px;
+}
+
+#ingredients,
+#categories,
+#counter {
+	margin: 20px 0;
+}
+
+#categories > li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+#gallery {
+	padding: 0;
+	margin: 0 0 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	font-size: 0;
+}
+
+.gallery-item:not(:nth-last-of-type(-n + 3)) {
+	margin-bottom: 10px;
+}
+
+.gallery-img {
+	height: 250px;
+}
+
+#counter {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 40px;
+}
+
+#counter > button {
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+}
+
+#validation-input {
+	border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+	border-color: #4caf50;
+}
+
+#validation-input.invalid {
+	border-color: #f44336;
+}
+
+.changeFontSize,
+.changeFontSize > input {
+	margin: 20px 0;
+}
+
+#controls {
+	margin-bottom: 10px;
+}
